@@ -1,0 +1,62 @@
+@CHARSET "ISO-8859-1";
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em,
+font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody,
+tfoot, thead, tr, th, td {
+	border:0pt none;
+	font-family:inherit;
+	font-size:100%;
+	font-style:inherit;
+	font-weight:inherit;
+}
+
+a{
+	cursor: pointer;
+	text-decoration:none;
+}
+
+#backgroundPopup{
+	display:none;
+	position:fixed;
+	_position:absolute; /* hack for internet explorer 6*/
+	height:100%;
+	width:100%;
+	top:0;
+	left:0;
+	background:#000000;
+	z-index:1;
+}
+
+.popup{
+	display:none;
+	position:fixed;
+	_position:absolute; /* hack for internet explorer 6*/
+	z-index:2;
+	padding:12px;
+}
+
+.popup h1{
+	font-family: 'Ubuntu', sans-serif;
+	font-size:20px;
+	color: rgbA(111, 165, 253,1);
+	text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.5);
+	border-bottom:1px dotted #D3D3D3;
+	margin:0;
+	padding:0;
+	padding-bottom:4px;
+	margin-bottom:20px;
+}
+
+.popupX{
+	font-family:arial,sans-serif;
+	font-size:14px;
+	line-height:14px;
+	right:6px;
+	top:4px;
+	position:absolute;
+	color:#6fa5fd;
+	font-weight:700;
+	display:block;
+	cursor:pointer;
+}
+

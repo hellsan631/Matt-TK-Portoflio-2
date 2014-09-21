@@ -1,0 +1,164 @@
+@charset "utf-8";
+/* CSS Document */
+
+html, body{ color:#b3b2b1; font:12px Helvetica, Arial, Verdana, sans-serif; margin: 0; padding 0; width:100%;}
+
+a:link, a:visited, a:hover, a:active {color:#adff47; border:none;} 
+
+img{border:none; padding-right:20px;}
+
+h2{font-family:Verdana, Geneva, sans-serif;}
+
+p{margin: 0; padding-bottom:15px;}
+
+.bg{ width:100%; z-index:-1; margin: 0 0px; position:static;}
+
+#nav{background: url(images/button_header.jpg); 
+	height: 50px;
+}
+
+#nav-inner{width:960px; margin:0 auto 150px; padding:22px 0 0;}
+
+/* Top Navigation List */
+ul#topnav {
+	margin:0 -74px 0; padding: 0 0 0;
+	list-style: none;
+	float: left;
+	width: 1100px;
+}
+ul#topnav li {
+	float: left;
+	margin: 0; padding: 0 0 0 46px;
+}
+
+ul#topnav a {
+	float: left;
+	display: block;
+	height: 27px;
+	text-indent: -99999px;
+	background-position: left top;
+	width: 100px;
+}
+
+ul#topnav li.one a {
+	background: url(images/buttons.png) 0 0;
+}
+
+ul#topnav li.one a:hover {
+	background: url(images/buttons.png) 101px 0;
+}
+
+ul#topnav li.two a {
+	background: url(images/buttons.png) 0 -27px;
+	opacity:0.4;
+	filter:alpha(opacity=40);
+}
+
+ul#topnav li.three a {
+	background: url(images/buttons.png) 0 -54px;
+}
+ul#topnav li.three a:hover {
+	background: url(images/buttons.png) 101px -54px;
+}
+
+ul#topnav li.four a {
+	background: url(images/buttons.png) 0 -81px;
+	
+}
+
+ul#topnav li.four a:hover {
+	background: url(images/buttons.png) 101px -81px;
+	
+}
+
+ul#topnav li.five a {
+	background: url(images/buttons.png) 0 -108px;
+	margin-left:-17px;
+}
+
+ul#topnav li.five a:hover {
+	background: url(images/buttons.png) 101px -108px;
+	margin-left:-17px;
+}
+
+ul#topnav li.six a {
+	background: url(images/buttons.png) 0 -135px;
+}
+
+ul#topnav li.six a:hover {
+	background: url(images/buttons.png) 101px -135px;
+}
+
+ul#topnav li.seven a {
+	background: url(images/buttons.png) 0 -162px;
+}
+
+ul#topnav li.seven a:hover {
+	background: url(images/buttons.png) 101px -162px;
+}
+
+/* Bottom Link List */
+ul#bottom-links {
+	list-style:none;
+	margin: 0;
+	padding: 29px 0 0 0px;
+	font-size:12px;
+}
+
+ul#bottom-links li {
+	padding:11px 10px 13px 10px;  background:url("./images/dots.png") repeat-x left bottom;
+}
+
+/* Bottom pics */
+ul#bottom-pics {
+	list-style:none;
+	margin: 0;
+	padding: 0;
+	font-size:12px;
+}
+
+ul#bottom-pics li {
+	padding:7px;
+}
+
+#nav2{background: url(images/login_bar.jpg);
+	height: 38px;
+}
+
+#content{
+	background: url(images/main_content_bg.jpg) no-repeat;
+	height: 589px;
+	min-height: 589px;
+}
+
+#content-inner{width:960px; margin:0 auto 150px; padding:35px 10px 10px 10px;}
+
+#story{position:relative;}
+.cLeft{float:left;}
+.cRight{float:right;}
+.cMiddle{float:left;}
+
+#playerbg{width:180px; float:left; background:rgba(13,12,13,0.4);}
+#weblinks{width:280px; float:left; background:rgba(13,12,13,0.4);}
+#pictures{width:inherit; float:left; background:rgba(13,12,13,0.4);}
+
+.latest-tweets{ width:400px; float:left; background:rgba(13,12,13,0.4);}
+.latest-tweets h3{}
+.latest-tweets h3 span{ color:#48c8f5;}
+.tweet{ padding:10px; background:url("./images/dots.png") repeat-x left bottom;}
+.content{}
+.meta{ color:#d7d5ca; font-style:italic;	}
+
+
+#footer-hr{
+	background: url(images/foot-hr.jpg);
+	height: 50px;
+	
+}
+
+#footer{
+	background: url(images/foot.jpg) repeat;
+	height:500px;
+	min-height: 500px;
+	max-height: 720px;	
+}

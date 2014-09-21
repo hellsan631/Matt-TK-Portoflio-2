@@ -1,0 +1,19 @@
+.icon-play,.icon-pause,.icon-arrow-right,.icon-arrow-left {
+	display: inline-block;
+	width: 64px;
+	height: 64px;
+	background-image: url(sprites.png);
+	background-repeat: no-repeat;
+}
+.icon-play {
+	background-position: 0 0;
+}
+.icon-pause {
+	background-position: -128px 0;
+}
+.icon-arrow-right {
+	background-position: -256px 0;
+}
+.icon-arrow-left {
+	background-position: -384px 0;
+}

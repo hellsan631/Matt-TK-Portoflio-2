@@ -1,0 +1,48 @@
+/* _functions.scss */
+@import "compass";
+@import "compass/support";
+
+@mixin bgcolor($color, $opacity) {
+	background: rgba($color, $opacity);
+}
+
+@mixin zero($margin: 0, $padding: 0){
+	margin: $margin;
+	padding: $padding;
+}
+
+@mixin linear-gradient($from, $to, $direction: top){
+	@include filter-gradient($from, $to, vertical); // IE6-9
+	@include background-image(linear-gradient($direction, $from 0%, $to 100%));
+}
+
+@mixin bgurl($filename, $bg: false, $location: repeat scroll 0% 0% transparent){
+	@if $bg == 'true'{
+		background: url("../images/bg/#{$filename}") $location;
+	}@else{
+		background: url("../images/#{$filename}") $location;
+	}
+}
+
+@mixin centerthis($top: 0, $lr: auto, $bottom: 0){
+	margin: $top $lr $bottom;
+}
+
+@mixin dimentions($width: auto, $height: auto, $min-w: 'none', $min-h: 'none'){
+	width: $width;
+	height: $height;
+	@if $min-w != 'none'{
+		@include min-width($min-w);
+	}
+	@if  $min-h != 'none'{
+		@include min-height($min-h);
+	}
+}
+
+@mixin fonty($size:12px, $line:16px, $weight:500){
+	font-size: $size;
+	line-height: $line;
+	font-weight: $weight;
+}
+
+$border: #cecece;

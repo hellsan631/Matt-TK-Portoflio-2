@@ -1,0 +1,106 @@
+@charset "utf-8";
+
+/* ------ GOSL league CSS file ------*/	
+
+/* ------ General Layout ------*/	
+
+html, body{ font-family:Tahoma, Geneva, sans-serif; font-size:9px; color: white; margin: 0; padding 0; width:100%; overflow:auto;}
+
+p{margin: 0; padding-bottom:9px;}
+
+.bg{ width:100%; z-index:-1; margin: auto 0px; position:static;}
+
+/* ------ Top Nav Containers ------*/	
+
+#nav{background: url(images/button_header.jpg); 
+	height: 133px;
+}
+
+#nav-inner{width:960px; margin:0 auto 150px; padding:35px 0 0;}
+
+/* ------ Navigation ------*/	
+
+ul#topnav {
+	margin:0 -74px 0; padding: 65px 0 0;
+	list-style: none;
+	float: left;
+	width: 1020px;
+}
+ul#topnav li {
+	float: left;
+	margin: 0; padding: 0 0 0 58px;
+}
+
+ul#topnav a {
+	float: left;
+	display: block;
+	height: 27px;
+	text-indent: -99999px;
+	background-position: left top;
+	width: 80px;
+}
+
+ul#topnav li.home a {
+	background: url(images/buttons.png) 0 0;
+}
+
+ul#topnav li.ladder a {
+	background: url(images/buttons.png) 0 -27px;
+}
+
+ul#topnav li.files a {
+	background: url(images/buttons.png) 0 -54px;
+}
+
+ul#topnav li.center a {
+	background: url(images/logo_small.png);
+	margin-top:-90px;
+	margin-left:10px;
+	width:120px;
+	height:120px;
+}
+
+ul#topnav li.rules a {
+	background: url(images/buttons.png) 0 -81px;
+}
+
+ul#topnav li.faq a {
+	background: url(images/buttons.png) 0 -108px;
+}
+
+ul#topnav li.about a {
+	background: url(images/buttons.png) 0 -135px;
+}
+
+
+#nav2{background: url(images/login_bar.jpg);
+	height: 38px;
+}
+
+/* ------ main content css ------*/	
+
+#content{
+	background: url(images/main_content_bg.jpg);
+	height: 100%;
+	min-height: 550px;
+	max-height: 1012px;
+}
+
+#content-inner{width:960px; margin:0 auto 150px; padding:35px 10px 10px 10px;}
+
+#story{position:relative;}
+.cLeft{float:left;}
+.cRight{float:right;}
+
+/* ------ footer ------*/	
+
+#footer-hr{
+	background: url(images/foot-hr.jpg);
+	height: 69px;
+	
+}
+
+#footer{
+	background: url(images/foot.jpg);
+	height: 250px;	
+}

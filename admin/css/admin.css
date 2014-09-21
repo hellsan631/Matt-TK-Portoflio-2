@@ -1,0 +1,333 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,100,500,600);
+/* _functions.scss */
+/* line 15, scss/style.scss */
+HTML, BODY {
+  font-family: 'Open Sans';
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 300;
+  background: url("../images/bg/off-whiteblue.png");
+  color: white;
+  margin: 0;
+  padding: 0;
+  behavior: url(./pie/PIE.php);
+}
+
+/* line 26, scss/style.scss */
+DIV {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 30, scss/style.scss */
+A {
+  text-decoration: none;
+  border: none;
+  outline: none;
+  color: #fff;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  behavior: url(./pie/PIE.php);
+}
+
+/* line 39, scss/style.scss */
+H1, H6, H2, H3, H4, H5 {
+  font-family: 'Open Sans';
+  font-weight: 400;
+  padding: 0;
+  margin: 0;
+  display: block;
+}
+
+/* line 47, scss/style.scss */
+.right {
+  float: right;
+}
+
+/* line 52, scss/style.scss */
+.left {
+  float: left;
+}
+
+/* line 56, scss/style.scss */
+.alignright {
+  text-align: right;
+}
+
+/* line 60, scss/style.scss */
+.aligncenter {
+  text-align: center;
+}
+
+/* line 64, scss/style.scss */
+.alignleft {
+  text-align: left;
+}
+
+/* line 69, scss/style.scss */
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+/* line 74, scss/style.scss */
+ul li {
+  display: inline-block;
+}
+
+/* line 79, scss/style.scss */
+H1 {
+  font-size: 46px;
+  line-height: 60px;
+}
+
+/* line 80, scss/style.scss */
+H2 {
+  font-size: 30px;
+  line-height: 36px;
+}
+
+/* line 81, scss/style.scss */
+H3 {
+  font-size: 26px;
+  line-height: 32px;
+}
+
+/* line 82, scss/style.scss */
+H4 {
+  font-size: 22px;
+  line-height: 28px;
+}
+
+/* line 83, scss/style.scss */
+H5 {
+  font-size: 18px;
+  line-height: 22px;
+}
+
+/* line 84, scss/style.scss */
+H6 {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+/* line 86, scss/style.scss */
+#side-nav {
+  background: rgba(0, 0, 0, 0.83);
+  -webkit-box-shadow: rgba(0, 0, 0, 0.7) 1px 0px 3px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.7) 1px 0px 3px;
+  box-shadow: rgba(0, 0, 0, 0.7) 1px 0px 3px;
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 10;
+}
+/* line 97, scss/style.scss */
+#side-nav li {
+  display: block;
+  padding: 15px;
+  font-size: 20px;
+  cursor: pointer;
+  margin: 3px 0px;
+}
+/* line 104, scss/style.scss */
+#side-nav li i {
+  float: right;
+}
+/* line 108, scss/style.scss */
+#side-nav li:hover {
+  background: #4e75f5;
+}
+/* line 114, scss/style.scss */
+#side-nav li.selected {
+  background: #4e75f5;
+}
+
+/* line 122, scss/style.scss */
+#content {
+  display: block;
+  padding-left: 250px;
+  width: auto;
+  height: 100%;
+  color: #555;
+  overflow: hidden;
+  position: relative;
+}
+/* line 132, scss/style.scss */
+#content #results {
+  background: #4e75f5;
+  padding: 20px;
+  color: #fff;
+  max-width: 560px;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+/* line 142, scss/style.scss */
+#content .row {
+  display: block;
+  padding: 20px;
+  width: auto;
+}
+/* line 147, scss/style.scss */
+#content .row h1, #content .row h2, #content .row h3, #content .row h4, #content .row h5, #content .row h6 {
+  text-shadow: rgba(255, 255, 255, 0.95) 0px 1px 2px;
+}
+/* line 154, scss/style.scss */
+#content .halfblock {
+  min-width: 500px;
+  max-width: 600px;
+  display: inline-block;
+  vertical-align: top;
+}
+/* line 161, scss/style.scss */
+#content .pages-list {
+  max-width: 1200px;
+}
+/* line 165, scss/style.scss */
+#content .pages-list li:not(.snap){
+  background: #4e75f5;
+  color: #fff;
+  display: block;
+  padding: 15px;
+  font-size: 20px;
+  line-height: 20px;
+  cursor: pointer;
+  margin: 4px 0px;
+  text-shadow: rgba(0, 0, 0, 0.5) 0px 1px 1px;
+  -webkit-box-shadow: rgba(255, 255, 255, 0.9) 0px 1px 2px, rgba(0, 0, 0, 0.5) 0px 0px 3px inset;
+  -moz-box-shadow: rgba(255, 255, 255, 0.9) 0px 1px 2px, rgba(0, 0, 0, 0.5) 0px 0px 3px inset;
+  box-shadow: rgba(255, 255, 255, 0.9) 0px 1px 2px, rgba(0, 0, 0, 0.5) 0px 0px 3px inset;
+}
+
+#content .pages-list li.snap{
+    background: #4e75f5;
+    color: #fff;
+    display: inline-block;
+    padding: 15px;
+    font-size: 20px;
+    text-align: center;
+    font-weight:400;
+    line-height: 20px;
+    cursor: pointer;
+    margin: 10px;
+    text-shadow: rgba(0, 0, 0, 0.8) 0px 1px 1px;
+    -webkit-box-shadow: rgba(255, 255, 255, 0.5) 0px 1px 0px inset, rgba(0, 0, 0, 0.5) 0px 1px 5px ;
+    -moz-box-shadow: rgba(255, 255, 255, 0.5) 0px 1px 0px inset, rgba(0, 0, 0, 0.5) 0px 1px 5px ;
+    box-shadow: rgba(255, 255, 255, 0.5) 0px 1px 0px inset, rgba(0, 0, 0, 0.5) 0px 1px 5px ;
+}
+
+/* line 177, scss/style.scss */
+#content .pages-list li:hover {
+  -webkit-box-shadow: rgba(255, 255, 255, 0.9) 0px 1px 3px, rgba(0, 0, 0, 0.75) 0px 0px 5px inset;
+  -moz-box-shadow: rgba(255, 255, 255, 0.9) 0px 1px 3px, rgba(0, 0, 0, 0.75) 0px 0px 5px inset;
+  box-shadow: rgba(255, 255, 255, 0.9) 0px 1px 3px, rgba(0, 0, 0, 0.75) 0px 0px 5px inset;
+}
+/* line 183, scss/style.scss */
+#content .pages-list li small {
+  font-size: 14px;
+  line-height: 21px;
+  vertical-align: top;
+}
+
+/* line 194, scss/style.scss */
+input[type="text"], select {
+  padding: 10px;
+  min-width: 240px;
+  display: block;
+  font-size: 14px;
+  font-weight: 300;
+  color: #333;
+  font-family: 'Open Sans';
+  line-height: 14px;
+  margin: 7px 0px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 3px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 3px;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 3px;
+}
+
+/* line 208, scss/style.scss */
+.fa-eye , .fa-book{
+  padding-right: 15px;
+}
+
+/* line 212, scss/style.scss */
+.button {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 18px;
+  padding: 10px 45px;
+  text-transform: uppercase;
+  background: none repeat scroll 0% 0% #ffba00;
+  display: block;
+  border-radius: 5px 5px 5px 5px;
+  min-width: 150px;
+  max-width: 200px;
+  text-align: center;
+  text-decoration: none;
+  border: medium none;
+  outline: medium none;
+  color: white;
+}
+
+/* line 230, scss/style.scss */
+#background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 100;
+  opacity: 0;
+  -webkit-transition: opacity 1.2s ease;
+  -moz-transition: opacity 1.2s ease;
+  -o-transition: opacity 1.2s ease;
+  transition: opacity 1.2s ease;
+}
+/* line 242, scss/style.scss */
+#background #overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 101;
+  width: auto;
+  padding: 20px;
+  min-width: 400px;
+  max-width: 800px;
+  height: auto;
+  color: #222;
+  background: url("../images/bg/off-whiteblue.png");
+  -webkit-box-shadow: black 0px 0px 5px;
+  -moz-box-shadow: black 0px 0px 5px;
+  box-shadow: black 0px 0px 5px;
+}
+/* line 256, scss/style.scss */
+#background #overlay input[type="text"] {
+  width: 97% !important;
+  margin: 0px;
+}
+/* line 261, scss/style.scss */
+#background #overlay b {
+  font-weight: 600;
+}
+
+/* line 267, scss/style.scss */
+.clear-fix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+/* line 276, scss/style.scss */
+.clear-fix {
+  zoom: 1;
+}
